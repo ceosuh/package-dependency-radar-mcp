@@ -1,0 +1,14 @@
+{
+  "name": "package-dependency-radar-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for real-time NPM, PyPI, and Rust Crates package version, license, and dependency verification.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "package-dependency-radar-mcp": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}
